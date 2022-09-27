@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/product-preview-card-component-kJXMnUMI9F)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/testimonialsgridsection-r_LRnCsYPf)
 - Live Site URL: [Live Demo](https://zenab12.github.io/testimonials-grid-section/)
 
 ## My process
