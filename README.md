@@ -10,7 +10,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -23,6 +22,7 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
+![zenab12 github io_testimonials-grid-section_(Nest Hub)](https://user-images.githubusercontent.com/78083890/192655268-88e7b1b1-df29-4522-97ef-30dd4646dee7.png)
 
 
 ### Links
@@ -36,37 +36,17 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- Grid Template
+- Scss
 
 ### What I learned
+- How to use functions and mixins and more in scss 
+- how to divide elements in any where we want using grid 
 
-- CSS BEM classes Names 
-
-```html
-<main class="card">
-<div class="card__info">
-  
-      <p class="card__info--title">  Perfume</p>
-      <h1> Gabrielle Essence Eau De Parfum    </h1>
-      <p> A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-        Perfumer-Creator for the House of CHANEL. 
-      </p>
-  
-</main>
-```
-
-- Picture element to make image responsive in html
-
-```html
-  <picture class="card__picture">
-      <source media="max-width:767px" srcset="./images/image-product-mobile.jpg" alt=" Gabrielle Essence Eau De Parfum   ">
-      <img  src="./images/image-product-desktop.jpg" alt="parfum" title=" Gabrielle Essence Eau De Parfum  ">
-   </picture>  
-```
 
 ### Useful resources
 
-- [HTML Notes for professional book](https://www.computer-pdf.com/web-programming/html/827-tutorial-html5-notes-for-professionals-book.html) - HTML Notes for professional book help me in many important Notes.
+- [Sass Documentation](https://sass-lang.com/documentation/) - this documentation help me in many important rules while using sass.
 - [CSS BEM](https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/) - helped me in name classes in best pratice
 
 ### Author
