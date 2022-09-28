@@ -26,7 +26,7 @@ font-family: $Font-family;
 @mixin SetFont($index) {
     @if $index == 1{position: absolute;top:0;left:0;color: transparent}
     @else if ($index == 2 or $index == 3 or $index == 0){font-size: 13px}
-    @else{font-size: 16px;}
+    @else{font-size: 19px;}
     }
 
 @function Generate-Area($index:0)
@@ -78,7 +78,7 @@ blockquote{@include SetFont(0);@extend %font-color;opacity: 70%}
 %grid
 {
     @include Grid(space-between,flex-start,10px );
-    padding: 29px;
+    padding: 33px;
     border-radius: 7px;
     position: relative;
 }
