@@ -60,7 +60,7 @@ font-family: $Font-family;
 *{@include Normalize()}
 body{
 @include Grid();
-height: 100vh;
+min-height: 100vh;
 background-color: $Light-grayish-blue;
 }
 
@@ -78,7 +78,7 @@ blockquote{@include SetFont(0);@extend %font-color;opacity: 70%}
 %grid
 {
     @include Grid(space-between,flex-start,10px );
-    padding: 32px;
+    padding: 33px;
     border-radius: 7px;
     position: relative;
 }
@@ -94,7 +94,7 @@ grid-template-areas: 'one one two five'
                     'three four four five';
 @for $i from 1 through 5
 {
-    &{> .grid:nth-of-type(#{$i}){@extend %grid;grid-area:Generate-Area($i);};.grid:nth-of-type(1) .grid__body::before{content: url(./images/bg-pattern-quotation.svg);background-size: cover;display: block;z-index:-1;position: absolute;top:-70px;left:50%;}
+    &{> .grid:nth-of-type(#{$i}){@extend %grid;grid-area:Generate-Area($i);};.grid:nth-of-type(1) .grid__body::before{content: url(./images/bg-pattern-quotation.svg);background-size: cover;display: block;z-index:-1;position: absolute;top:-70px;left:65%;}
     }
 
 }
@@ -133,5 +133,5 @@ $backgrounds: (1:$Moderate-violet,2:$Very-dark-grayish-blue,3:$White,4:$Very-dar
 
 @media($mobile)
 {
-    main.container{  @include Grid();grid-template-columns: 350px;grid-template-areas:'one' 'two' 'three' 'four' 'five';};
+    main.container{ @include Grid();grid-template-columns: 335px;grid-template-areas:'one' 'two' 'three' 'four' 'five';margin:20px auto};
 }
