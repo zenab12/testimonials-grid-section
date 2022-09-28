@@ -26,7 +26,7 @@ font-family: $Font-family;
 @mixin SetFont($index) {
     @if $index == 1{position: absolute;top:0;left:0;color: transparent}
     @else if ($index == 2 or $index == 3 or $index == 0){font-size: 13px}
-    @else{font-size: 19px;}
+    @else{font-size: 18px;}
     }
 
 @function Generate-Area($index:0)
