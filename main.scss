@@ -78,7 +78,7 @@ blockquote{@include SetFont(0);@extend %font-color;opacity: 70%}
 %grid
 {
     @include Grid(space-between,flex-start,10px );
-    padding: 33px;
+    padding: 32px;
     border-radius: 7px;
     position: relative;
 }
