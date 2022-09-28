@@ -64,18 +64,21 @@ height: 100vh;
 background-color: $Light-grayish-blue;
 }
 
-
+%font-color
+{
+    color: $Light-gray;
+}
 h1{@include SetFont(1)}
-h2{@include SetFont(2);color: $Light-gray;}
-h3{@include SetFont(3);color: $Light-gray;opacity: 50%}
+h2{@include SetFont(2);@extend %font-color}
+h3{@include SetFont(3);@extend %font-color;opacity: 50%}
 div{@include SetFont(-1);color: $White}
-blockquote{@include SetFont(0);;color: $Light-gray;opacity: 70%}
+blockquote{@include SetFont(0);@extend %font-color;opacity: 70%}
 
 
 %grid
 {
     @include Grid(space-between,flex-start,10px );
-    padding: 25px;
+    padding: 29px;
     border-radius: 7px;
     position: relative;
 }
@@ -84,7 +87,7 @@ blockquote{@include SetFont(0);;color: $Light-gray;opacity: 70%}
 main.container
 {
 @include Grid(space-between,normal);
-max-width:900px;
+max-width:1000px;
 grid-template-columns:repeat(4,1fr);
 grid-template-rows: repeat(2,auto);
 grid-template-areas: 'one one two five'
